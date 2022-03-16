@@ -1,0 +1,221 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+  outline: none;
+  border: none;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+.narbav ul {
+  list-style-type: none;
+}
+.narbav ul li:first-child {
+  color: orange !important;
+}
+.narbav ul li {
+  cursor: pointer;
+}
+
+.width {
+  width: 100%;
+}
+
+.bg {
+  background-color: #000;
+  color: #fff;
+}
+
+.calling i {
+  color: #fff;
+}
+.calling-info i {
+  margin-bottom: 6%;
+  border: 1px solid orange;
+  background: transparent;
+  padding: 10px;
+}
+.calling .mani {
+  margin-bottom: 6%;
+}
+.calling .mani span {
+  font-size: 36px;
+}
+
+.affter {
+  position: relative;
+}
+.affter ::after {
+  content: "";
+  height: 10px;
+  width: 100%;
+  background-color: red;
+  position: absolute;
+}
+
+.clip {
+  height: 5px;
+  width: 100%;
+  background-color: red;
+  position: absolute;
+  top: 0;
+}
+
+.rele {
+  position: relative;
+}
+
+.wapper {
+  background-image: url("../img/toc-goku_1-2117 (1).jpg");
+  height: 140vh;
+  margin: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.wapper .content {
+  color: #fff;
+}
+.wapper .content button {
+  border: 1px solid orange;
+  background: transparent;
+  color: #fff;
+  border-left-color: orange;
+  border-left-width: 5px;
+}
+
+.height {
+  height: 100%;
+}
+
+.service-info {
+  border: 1px solid #a7a4a4;
+}
+
+.content-goku {
+  background-image: url("../img/rtd1-1596712458074488543564 (1).jpg");
+  margin: 0;
+  height: 60vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content-goku-info i {
+  font-size: 80px;
+  color: red;
+}
+
+.icon-running {
+  position: absolute;
+  bottom: -45%;
+  right: 3%;
+  background-color: orange;
+  padding: 32px 85px;
+  z-index: 10;
+  color: #fff;
+}
+
+.black {
+  background-color: #000;
+  padding-top: 50px;
+  height: 50vh;
+  color: #fff;
+}
+.black button {
+  border: 1px solid orange;
+  background: transparent;
+  color: #fff;
+  border-left-color: orange;
+  border-left-width: 5px;
+  padding: 20px 60px;
+}
+
+.black2 {
+  background-color: #000;
+}
+
+.newgoku {
+  background-image: url("../img/ka1-1620019698550186386241.jpg");
+  margin: 0;
+  height: 120vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: red;
+  color: #fff;
+}
+.newgoku .height {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.img-3 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  background-image: url("../img/toc-goku_1-2117 (1).jpg");
+}
+.img-3 p {
+  color: #fff;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.goku-4 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  color: #fff;
+  background-image: url("../img/toc-goku_1-2117 (1).jpg");
+}
+.goku-4 .height {
+  background-color: rgba(255, 0, 0, 0.8);
+}
+.goku-4 .boxs {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.thumbs img {
+  width: 90%;
+}
+
+.box-infor {
+  border-right: 1px solid #5c5c5c;
+}
+.box-infor .arrow {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #a7a4a4;
+}
+.box-infor :hover .arrow {
+  background-color: #000;
+  color: #fff;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,189 @@
+@import './reset';
+@mixin buttonO {
+    border: 1px solid orange;
+    background: transparent;
+    color: #fff;
+    border-left-color: orange;
+    border-left-width: 5px;
+}
+
+
+.narbav {
+    ul {
+        list-style-type: none;
+
+            li:first-child {
+                color: orange !important;
+            }
+            li {
+                cursor: pointer;
+            }
+        
+    }
+}
+.width {
+    width: 100%;
+}
+.bg {
+    background-color: #000;
+    color: #fff;
+}
+.calling {
+    i {
+        color: #fff;
+    }
+    &-info {
+        i {
+            margin-bottom: 6%;
+            border: 1px solid orange;
+            background: transparent;
+            padding: 10px;
+        }
+    }
+    .mani {
+        margin-bottom: 6%;
+            span {
+                font-size: 36px;
+            }
+    }
+}
+.affter {
+    position: relative;
+    ::after {
+        content: "";
+        height: 10px;
+        width: 100%;
+        background-color: red;
+        position: absolute;
+    }
+}
+.clip {
+    height: 5px;
+    width: 100%;
+    background-color: red;
+    position: absolute;
+    top: 0;
+}
+.rele {
+    position: relative;
+}
+.wapper {
+    background-image: url("../img/toc-goku_1-2117\ \(1\).jpg");
+    height: 140vh;
+    margin: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .content {
+        color: #fff;
+        button {
+            border: 1px solid orange;
+            background: transparent;
+            color: #fff;
+            border-left-color: orange;
+            border-left-width: 5px;
+        }
+    }
+}
+.height {
+    height: 100%;
+}
+.service-info {
+    border: 1px solid rgb(167, 164, 164);
+}
+.content-goku {
+    background-image: url("../img/rtd1-1596712458074488543564\ \(1\).jpg");
+    margin: 0;
+    height: 60vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &-info {
+        i {
+            font-size: 80px;
+            color: red;
+        }
+    }
+}
+.icon-running {
+    position: absolute;
+    bottom: -45%;
+    right: 3%;
+    background-color: orange;
+    padding: 32px 85px;
+    z-index: 10;
+    color: #fff;
+}
+.black {
+    background-color: #000;
+    padding-top: 50px;
+    height: 50vh;
+    color: #fff;
+    button {
+        @include buttonO();
+        padding: 20px 60px;
+    }
+}
+.black2 {
+    background-color: #000
+}
+.newgoku {
+    background-image: url("../img/ka1-1620019698550186386241.jpg");
+    margin: 0;
+    height:120vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:red;
+    color: #fff;
+    .height {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+}
+
+.img-3 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    background-image: url('../img/toc-goku_1-2117\ \(1\).jpg');
+    p {
+        color: #fff;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+}
+.goku-4 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    color: #fff;
+    background-image: url("../img/toc-goku_1-2117\ \(1\).jpg");
+    .height {
+        background-color: rgba(255, 0, 0, 0.8);
+    }
+    .boxs {
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+}
+.thumbs {
+    img {
+        width: 90%;
+    }
+}
+.box-infor {
+    border-right: 1px solid rgb(92, 92, 92);
+    .arrow {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: rgb(167, 164, 164);   
+    }
+    :hover {
+        .arrow {
+            background-color: #000;
+            color: #fff;
+        }
+    }
+}
